@@ -1,0 +1,135 @@
+@import url("https://fonts.cdnfonts.com/css/switzer");
+@import url("https://fonts.cdnfonts.com/css/avenir");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.samantha {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.email {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.links {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 50%;
+  padding: 50px 0;
+}
+
+.expense-title {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0.6666666865348816px;
+  text-align: left;
+}
+
+.expense-date {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.34285715222358704px;
+  text-align: left;
+  opacity: 50%;
+}
+
+.today {
+  font-family: "Avenir", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+}
+
+.grocery {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.34285715222358704px;
+  /* text-align: left; */
+}
+
+.grocery-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  /* text-align: left; */
+}
+
+.price {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.34285715222358704px;
+  /* text-align: right; */
+  justify-content: end;
+}
+
+.money-title {
+  font-family: "Avenir", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3333333432674408px;
+  text-align: left;
+}
+
+.details {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4642857015132904px;
+  text-align: left;
+}
+
+.amount {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4642857015132904px;
+  text-align: right;
+}
+
+.second {
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  /* border-radius: 50px; */
+  background-color: ;
+}
+
+.third {
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  /* border-radius: 50px; */
+  background-color: ;
+  border-right: 10px solid black;
+}
+
+.notification {
+  position: absolute;
+  top: 35%;
+  margin-left: 50px;
+  /* right: 5%; */
+}
