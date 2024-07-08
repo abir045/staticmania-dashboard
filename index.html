@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=boska@400&display=swap"
       rel="stylesheet"
@@ -13,228 +13,205 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
   </head>
   <body>
-    <div class="flex ">
+    <div class="flex">
       <div class="flex flex-col bg-[#101010] px-[60px]">
         <div class="flex flex-col pl-[50px] pt-[100px] relative">
-         
-          <img class="w-[29px] notification " src="images/Notifications.svg" />
-          <img class="w-[72px] " src="images/Profile.png" />
+          <img class="w-[29px] notification" src="images/Notifications.svg" />
+          <img class="w-[72px]" src="images/Profile.png" />
           <h1 class="samantha pt-5">Samantha</h1>
           <p class="email">samantha@email.com</p>
         </div>
 
         <div class="flex flex-col flex-none pl-[50px] pt-[100px]">
           <ul class="links">
-            <li class="py-6"  >Dashboard</a>
-            <li class="py-6" >Expenses</li>
-            <li class="py-6" >Wallets</a>
-            <li class="py-6" >Summary</a>
-            <li class="py-6">Accounts</a>
-            <li class="py-6" >Settings</a>
-            </ul>
+            <li class="py-6 opacity-50"><a href="">Dashboard</a></li>
+            <li class="py-6"><a href="">Expenses</a></li>
+            <li class="py-6 opacity-50"><a href="">Wallets</a></li>
+            <li class="py-6 opacity-50"><a href="">Summary</a></li>
+            <li class="py-6 opacity-50"><a href="">Accounts</a></li>
+            <li class="py-6 opacity-50"><a href="">Settings</a></li>
+          </ul>
         </div>
       </div>
 
-     
-
-      <div class="flex flex-col second grow border-black rounded border-top-[5px] w-full px-[50px]">
+      <div class="flex flex-col second grow border-black s w-full px-[50px]">
         <div class="flex-col">
+          <div class="flex">
+            <div class="flex-col px-[50px] py-[100px]">
+              <h1 class="expense-title">Expenses</h1>
+              <p class="expense-date">01 - 25 March, 2020</p>
+            </div>
+
+            <div class="flex gap-0">
+              <img class="w-[32px]" src="images//prof1.svg" />
+              <img class="w-[32px]" src="images/prof2.svg" />
+              <img class="w-[32px]" src="images/prof3.svg" />
+              <img class="w-[32px]" src="images/prof4.svg" />
+            </div>
+          </div>
+
+          <div class="pl-[50px]">
+            <img src="images/Stats.svg" />
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="flex justify-between pt-[50px] pl-[50px]">
+            <p class="today">Today</p>
+            <img src="images/dotgroup.svg" />
+          </div>
+
+          <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
             <div class="flex">
-            
-                <div class="flex-col px-[50px] py-[100px]">
-                 <h1 class="expense-title">Expenses</h1>
-                 <p class="expense-date">01 - 25 March, 2020</p>  
-                </div> 
-                
-                <div class="flex gap-0">
-                  <img class="w-[32px]" src="images//prof1.svg" />  
-                  <img class="w-[32px]"  src="images/prof2.svg" />  
-                  <img class="w-[32px]" src="images/prof3.svg"/>  
-                  <img class="w-[32px]" src="images/prof4.svg"/>  
-                  
-                </div>
+              <img class="pt-5" src="images/cart.svg" />
+            </div>
+
+            <div class="flex flex-col pt-[20px]">
+              <p class="grocery">Grocery</p>
+              <p class="grocery-details">5:12 pm • Belanja di pasar</p>
+            </div>
+
+            <div class="pl-[40px]">
+              <span class="price">-326.800</span>
+            </div>
+          </div>
+
+          <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
+            <div class="flex">
+              <img class="pt-5" src="images/bus.svg" />
+            </div>
+
+            <div class="flex flex-col pt-[20px]">
+              <p class="grocery">Transportation</p>
+              <p class="grocery-details">5:12 pm • Naik bus umum</p>
             </div>
 
             <div class="pl-[50px]">
-                <img src="images/Stats.svg" />
+              <span class="price">-15.000</span>
+            </div>
+          </div>
+
+          <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
+            <div class="flex">
+              <img class="pt-5" src="images/housing.svg" />
             </div>
 
-           </div>
-
-           <div class="flex flex-col">
-            <div class="flex justify-between pt-[50px] pl-[50px]">
-             <p class="today">Today</p> 
-             <img src="images/dotgroup.svg">  
+            <div class="flex flex-col pt-[20px]">
+              <p class="grocery">Housing</p>
+              <p class="grocery-details">5:12 pm • Bayar Listrik</p>
             </div>
 
-            <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
-                <div class="flex">
-                    <img class="pt-5" src="images/cart.svg" />
-                </div>
-                
-                <div class="flex flex-col  pt-[20px]">
-                    <p class="grocery">Grocery</p>
-                    <p class="grocery-details">5:12 pm  •  Belanja di pasar</p>
-                </div>
+            <div class="pl-[80px]">
+              <span class="price">-185.750</span>
+            </div>
+          </div>
 
-                <div class="pl-[40px]">
-                    <span class="price">-326.800</span>
-                </div>
-               </div>
+          <div class="flex justify-between pt-[50px] pl-[50px]">
+            <p class="today">Monday, 23 March 2020</p>
+            <img src="images/dotgroup.svg" />
+          </div>
 
-               <div class="flex items-center flex-row  gap-[20px] mt-[5px] pl-[50px]">
-                <div class="flex">
-                    <img class="pt-5" src="images/bus.svg" />
-                </div>
-                
-                <div class="flex flex-col  pt-[20px]">
-                    <p class="grocery">Transportation</p>
-                    <p class="grocery-details">5:12 pm  •  Naik bus umum</p>
-                </div>
+          <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
+            <div class="flex">
+              <img class="pt-5" src="images/bell.svg" />
+            </div>
 
-                <div class="pl-[50px]">
-                    <span class="price">-15.000</span>
-                </div>
-               </div>
+            <div class="flex flex-col pt-[20px]">
+              <p class="grocery">Food and Drink</p>
+              <p class="grocery-details">5:12 pm • Makan Steak</p>
+            </div>
 
-               <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
-                <div class="flex">
-                    <img class="pt-5" src="images/housing.svg" />
-                </div>
-                
-                <div class="flex flex-col  pt-[20px]">
-                    <p class="grocery">Housing</p>
-                    <p class="grocery-details">5:12 pm  •  Bayar Listrik</p>
-                </div>
+            <div class="pl-[80px]">
+              <span class="price">-156.000</span>
+            </div>
+          </div>
 
-                <div class="pl-[80px]">
-                    <span class="price">-185.750</span>
-                </div>
-               </div>
+          <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
+            <div class="flex">
+              <img class="pt-5" src="images/play.svg" />
+            </div>
 
+            <div class="flex flex-col pt-[20px]">
+              <p class="grocery">Entertainment</p>
+              <p class="grocery-details">5:12 pm • Nonton Bioskop</p>
+            </div>
 
-               <div class="flex justify-between pt-[50px] pl-[50px]">
-                <p class="today">Monday, 23 March 2020</p> 
-                <img src="images/dotgroup.svg">  
-               </div>
-
-               <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
-                <div class="flex">
-                    <img class="pt-5" src="images/bell.svg" />
-                </div>
-                
-                <div class="flex flex-col  pt-[20px]">
-                    <p class="grocery">Food and Drink</p>
-                    <p class="grocery-details">5:12 pm  •  Makan Steak</p>
-                </div>
-
-                <div class="pl-[80px]">
-                    <span class="price">-156.000</span>
-                </div>
-               </div>
-
-               <div class="flex items-center flex-row gap-[20px] mt-[5px] pl-[50px]">
-                <div class="flex">
-                    <img class="pt-5" src="images/play.svg" />
-                </div>
-                
-                <div class="flex flex-col  pt-[20px]">
-                    <p class="grocery">Entertainment</p>
-                    <p class="grocery-details">5:12 pm  •  Nonton Bioskop</p>
-                </div>
-
-                <div class="pl-[60px]">
-                    <span class="price">-35.200</span>
-                </div>
-               </div>
-              
-           </div>
-
-
+            <div class="pl-[60px]">
+              <span class="price">-35.200</span>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      <div class="flex flex-col third rounded flex-none pt-[100px] bg-[#F9FAFC] b-r-2 border-black border-solid px-[50px] w-[500px]">
+
+      <div
+        class="flex flex-col third rounded flex-none pt-[100px] bg-[#F9FAFC] b-r-2 border-black border-solid px-[50px] w-[500px]"
+      >
         <h1 class="money-title">Where your money go?</h1>
 
         <div class="flex flex-col">
           <div class="flex justify-between pt-10">
-           <p class="details">Food and Drinks</p>
-           <p class="amount">872.400</p>
+            <p class="details">Food and Drinks</p>
+            <p class="amount">872.400</p>
           </div>
 
           <div class="flex pt-3">
             <img src="images/gr1.svg" />
             <img src="images/wh1.svg" />
-            
           </div>
-
         </div>
 
         <div class="flex flex-col">
-            <div class="flex justify-between pt-10">
-             <p class="details">Shopping</p>
-             <p class="amount">1.378.200</p>
-            </div>
-  
-            <div class="flex pt-3">
-              <img src="images/gr2.svg" />
-              <img src="images/wh2.svg" />
-              
-            </div>
-  
+          <div class="flex justify-between pt-10">
+            <p class="details">Shopping</p>
+            <p class="amount">1.378.200</p>
           </div>
 
-          <div class="flex flex-col">
-            <div class="flex justify-between pt-10">
-             <p class="details">Housing</p>
-             <p class="amount">928.500</p>
-            </div>
-  
-            <div class="flex pt-3">
-              <img src="images/gr3.svg" />
-              <img src="images/wh3.svg" />
-              
-            </div>
-  
+          <div class="flex pt-3">
+            <img src="images/gr2.svg" />
+            <img src="images/wh2.svg" />
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="flex justify-between pt-10">
+            <p class="details">Housing</p>
+            <p class="amount">928.500</p>
           </div>
 
-          <div class="flex flex-col">
-            <div class="flex justify-between pt-10">
-             <p class="details">Transportation</p>
-             <p class="amount">420.700</p>
-            </div>
-  
-            <div class="flex pt-3">
-              <img src="images/gr4.svg" />
-              <img src="images/wh4.svg" />
-              
-            </div>
-  
+          <div class="flex pt-3">
+            <img src="images/gr3.svg" />
+            <img src="images/wh3.svg" />
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="flex justify-between pt-10">
+            <p class="details">Transportation</p>
+            <p class="amount">420.700</p>
           </div>
 
-          <div class="flex flex-col">
-            <div class="flex justify-between pt-10">
-             <p class="details">Vehicle</p>
-             <p class="amount">520.000</p>
-            </div>
-  
-            <div class="flex pt-3">
-              <img src="images/gr5.svg" />
-              <img src="images/wh5.svg" />
-              
-            </div>
-  
+          <div class="flex pt-3">
+            <img src="images/gr4.svg" />
+            <img src="images/wh4.svg" />
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="flex justify-between pt-10">
+            <p class="details">Vehicle</p>
+            <p class="amount">520.000</p>
           </div>
 
-          <div>
-            <img class="w-[600px] pt-10" src="images/BoxTips.svg" />
+          <div class="flex pt-3">
+            <img src="images/gr5.svg" />
+            <img src="images/wh5.svg" />
           </div>
+        </div>
 
-
-
+        <div>
+          <img class="w-[600px] pt-10" src="images/BoxTips.svg" />
+        </div>
       </div>
-
-
     </div>
   </body>
 </html>
